@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="ie iem7"><![endif]-->
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"><![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"><![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7) ]><html class="ie" lang="en"><![endif]-->
+<!--[if !(IEMobile) | !(IE)]><!--><html lang="en"><!-- InstanceBegin template="/Templates/fixed.dwt" codeOutsideHTMLIsLocked="false" --><!--<![endif]-->
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta name="author" content="University of Nebraska-Lincoln | Web Developer Network" />
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+<!-- For Microsoft -->
+<!--[if IE]>
+<meta http-equiv="cleartype" content="on">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<![endif]-->
+
+<!-- For iPhone 4 -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/wdn/templates_3.1/images/h-apple-touch-icon-precomposed.png">
+<!-- For iPad 1-->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/wdn/templates_3.1/images/m-apple-touch-icon-precomposed.png">
+<!-- For iPhone 3G, iPod Touch and Android -->
+<link rel="apple-touch-icon-precomposed" href="/wdn/templates_3.1/images/l-apple-touch-icon-precomposed.png">
+<!-- For everything else -->
+<link rel="shortcut icon" href="/wdn/templates_3.1/images/favicon.ico" />
+
+<!--
+    Membership and regular participation in the UNL Web Developer Network
+    is required to use the UNL templates. Visit the WDN site at 
+    http://wdn.unl.edu/. Click the WDN Registry link to log in and
+    register your unl.edu site.
+    All UNL template code is the property of the UNL Web Developer Network.
+    The code seen in a source code view is not, and may not be used as, a 
+    template. You may not use this code, a reverse-engineered version of 
+    this code, or its associated visual presentation in whole or in part to
+    create a derivative work.
+    This message may not be removed from any pages based on the UNL site template.
+    
+    $Id: fixed.dwt | 1453c8fc0eafda458699fd5676379805da2368cc | Fri Oct 12 13:23:32 2012 -0500 | Seth Meranda  $
+-->
+<!-- Load our base CSS file -->
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.unl.edu/wdn/templates_3.1/css/compressed/base.css">
+<!-- Then load the various media queries (use 'only' to force non CSS3 compliant browser to ignore) -->
+<!-- Since this file is media query imports, IE 7 & 8 will not parse it -->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" type="text/css" media="all and (min-width: 320px)" href="http://www.unl.edu/wdn/templates_3.1/css/variations/media_queries.css">
+<!--<![endif]-->
+    
+<!-- Load the template JS file -->
+    <script type="text/javascript" src="http://www.unl.edu/wdn/templates_3.1/scripts/compressed/all.js?dep=3.1.19" id="wdn_dependents"></script>
+
+<!-- For old IE, bring in all the styles w/o media queries -->
+<!--[if lt IE 9]>
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.unl.edu/wdn/templates_3.1/css/compressed/combined_widths.css" />
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- For all IE versions, bring in the tweaks -->
+<!--[if IE]>
+    <link rel="stylesheet" type="text/css" media="all" href="http://www.unl.edu/wdn/templates_3.1/css/variations/ie.css" />
+<![endif]-->
+
+<!-- Load the print styles -->
+    <link rel="stylesheet" type="text/css" media="print" href="http://www.unl.edu/wdn/templates_3.1/css/variations/print.css" />
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>UNL | Jeffrey S. Raikes School of Computer Science and Management</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript">
+var navl2Links = 0; //Default navline2 links to display (zero based counting)
+</script>
+<link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+
+
+<script type="text/javascript" src="splash/splash.js"></script>
+<script type="text/javascript" src="splash/splash_poster.js"></script>
+
+<link rel="stylesheet" type="text/css" media="all" href="splash/splashb.css" />
+<style type="text/css">
+<!--
+
+.style3 {color: #FFFFFF}
+.clearFloat:after {content: ".";display: block;clear: both;visibility: hidden;}
+
+
+div.media{
+margin:0 0 5px 0;
+}
+
+div.mediaitem {
+width:480px;
+height:180px;
+padding:5px 2px 2px 5px;
+float:left;
+background-color:#000000;
+}
+
+div.mediaitem2 {
+margin:0px 0px 5px 0px;
+float:right;
+}
+
+.thmbnl{
+float:left;
+padding:4px 4px 4px 4px;
+background-color:#000000;
+height:110px;
+}
+
+.desc{
+padding:2px;
+height:130px;
+background:#000000;
+border-bottom:1px solid #333333;
+border-left:1px solid #333333;
+overflow:auto;
+
+}
+.grayheader{
+color:#FFFFFF;
+background-color:#333333;
+padding:3px;
+}
+
+.grayborder{
+padding:2px;
+color:#FFFFFF;
+border:1px solid #333333;
+}
+
+-->
+</style>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="class" type="text" value="fixed" -->
+</head>
+<body class="fixed" data-version="3.1">
+    <nav class="skipnav" role="navigation">
+        <a class="skipnav" href="#maincontent">Skip Navigation</a>
+    </nav>
+    <div id="wdn_wrapper">
+        <header id="header" role="banner">
+            <a id="logo" href="http://www.unl.edu/" title="UNL website">UNL</a>
+            <span id="wdn_institution_title">University of Nebraska&ndash;Lincoln</span>
+            <span id="wdn_site_title"><!-- InstanceBeginEditable name="titlegraphic" -->
+        Jeffrey S. Raikes School of Computer Science and Management
+        
+        <!-- InstanceEndEditable --></span>
+            <div id="wdn_identity_management" role="navigation" aria-labelledby="wdn_idm_username">
+    <a class="wdn_idm_user_profile" id="wdn_idm_login" href="https://login.unl.edu/cas/login" title="Log in to UNL">
+        <img id="wdn_idm_userpic" src="/wdn/templates_3.1/images/wdn_idm_defaulttopbar.gif" alt="User Profile Photo">
+        <span id="wdn_idm_username">UNL Login</span>
+    </a>
+    <h3 class="wdn_list_descriptor hidden">Account Links</h3>
+    <ul id="wdn_idm_user_options">
+        <li id="wdn_idm_logout">
+            <a title="Logout" href="https://login.unl.edu/cas/logout?url=http%3A//www.unl.edu/">Logout</a>
+        </li>
+    </ul>
+</div><div id="wdn_search">
+    <form id="wdn_search_form" action="http://www.google.com/u/UNL1?sa=Google+Search&amp;q=" method="get" role="search">
+        <fieldset>
+            <legend class="hidden">Search</legend>
+            <label for="q">Search this site, all UNL or for a person</label>
+            <input accesskey="f" id="q" name="q" type="search" placeholder="Search this site, all UNL or for a person" />
+            <input class="search" type="submit" value="Go" name="submit" />
+        </fieldset>
+    </form>
+</div>
+<h3 class="wdn_list_descriptor hidden">UNL Tools</h3>
+<menu id="wdn_tool_links">
+    <li><a href="http://www1.unl.edu/feeds/" class="feeds tooltip" data-title="RSS Feeds: View and Subscribe to News Feeds">Feeds</a></li>
+    <li><a href="http://forecast.weather.gov/MapClick.php?CityName=Lincoln&amp;state=NE&amp;site=OAX" class="weather tooltip" data-title="Weather: Local Forecast and Radar">Weather</a></li>
+    <li><a href="http://events.unl.edu/" class="events tooltip" data-title="UNL Events: Calendar of Upcoming Events">Events</a></li>
+    <li><a href="http://directory.unl.edu/" class="directory tooltip" data-title="UNL Directory: Search for Faculty, Staff, Students and Departments">Directory</a></li>
+</menu>
+<span class="corner-fix-top-right"></span>
+<span class="corner-fix-bottom-left"></span>
+
+        </header>
+        <div id="wdn_navigation_bar" role="navigation">
+            <nav id="breadcrumbs">
+                <!-- WDN: see glossary item 'breadcrumbs' -->
+                <h3 class="wdn_list_descriptor hidden">Breadcrumbs</h3>
+                <!-- InstanceBeginEditable name="breadcrumbs" -->
+      <!-- WDN: see glossary item 'breadcrumbs' -->
+      <ul>
+        <li class="first"><a href="http://www.unl.edu/">UNL</a></li>
+        <li>Jeffrey S. Raikes School</li>
+      </ul>
+      <!-- InstanceEndEditable -->
+            </nav>
+            <div id="wdn_navigation_wrapper">
+                <nav id="navigation" role="navigation">
+                    <h3 class="wdn_list_descriptor hidden">Navigation</h3>
+                    <!-- InstanceBeginEditable name="navlinks" -->
+        <ul>
+
+
+<li> <a href="/program.shtml">About the Raikes School</a>
+  <ul>
+    <li><a href="/curriculum.shtml">Curriculum</a></li>
+    <li><a href="/designstudio.shtml">Design Studio</a></li>
+    <li><a href="/internships.shtml">Internships</a></li>
+    <li><a href="/scholarships.shtml">Scholarships</a></li>
+	<li><a href="/graduates.shtml">Graduates</a></li>
+   </ul>
+</li>
+
+<li><a href="/students.shtml">Prospective Students</a>
+  <ul>
+    <li><a href="/reply/">Request information</a></li>
+    <li><a href="/curriculum.shtml">Curriculum</a></li>
+    <li><a href="/scholarships.shtml">Scholarship</a></li>
+	<li><a href="/selection.shtml">Selection</a></li>
+	<li><a href="/applyonline.shtml">Apply Online</a></li>
+	<li><a href="/residences.shtml">Student Residences </a></li>
+    <li><a href="/laptoprequirements.shtml">Laptop Requirements</a></li>
+	
+  </ul>
+</li>
+<li ><a href="/faculty_staff.shtml">Faculty/Staff</a>
+  <ul>
+    <li><a href="/staff.shtml">Staff</a></li>
+    <li><a href="/faculty.shtml">Faculty</a></li>
+  </ul>
+</li>
+<li><a href="/facilities.shtml">Facilities</a>
+  <ul>
+    <li class="first"><a href="/kauffman.shtml">Kauffman Center</a></li>
+    <li class="first"><a href="/residences.shtml">Student Residences </a></li>
+  </ul>
+</li>
+<li> <a href="/partners.shtml">Corporate Partners</a>
+  <ul>
+    <li><a href="/designstudio.shtml">Design Studio</a></li>
+    <li><a href="/designstudio.shtml">Current Design Studio Clients</a></li>
+    <li><a href="/partners.shtml#09">Past Design Studio Clients</a></li>
+    <li><a href="/corporateboard.shtml">Advisory Board</a></li>
+	<li><a href="/internships.shtml">Internships</a></li>
+	</ul>
+</li>
+
+<li><a href="/contact/"> Contact</a>
+	<ul>
+	<li><a href="/raikes_bio.shtml">About Jeff Raikes</a></li>
+    <li><a href="/testimonials.shtml">Testimonials</a></li>
+    <li><a href="/speeches.shtml">Speeches</a></li>
+	</ul></li>
+
+</ul>
+
+        <!-- InstanceEndEditable -->
+                </nav>
+            </div>
+        </div>
+        <div id="wdn_content_wrapper" role="main">
+            <div id="pagetitle">
+                <!-- InstanceBeginEditable name="pagetitle" --><h1>World-Class Innovation and Leadership Through Honors Education</h1> 
+      <!-- InstanceEndEditable -->
+            </div>
+            <div id="maincontent">
+                <!--THIS IS THE MAIN CONTENT AREA; WDN: see glossary item 'main content area' -->
+                <!-- InstanceBeginEditable name="maincontentarea" -->
+       
+       
+       
+          <div class="grid9 first">
+		  
+          <div class="grid3 first">
+          <a href="video_evanwilliams.shtml" title="watch a video of Evan Williams speaking at the Raikes School" class="tooltip" style="display:block;"><img src="images/splash_profile_williams.jpg" width="210" height="221" alt="Evan Williams" /></a>
+          </div>
+          
+          <div class="grid3">
+          <a href="video_billgates.shtml" title="watch a video of Bill Gates speaking at the Raikes School" class="tooltip" style="display:block;"><img src="images/splash_profile_gates.jpg" width="210" height="221" alt="Bill Gates" /></a>
+          </div>
+          
+          <div class="grid3">
+           <a href="video_jeffreysraikes_20100430.shtml" title="watch a video of Jeff Raikes speaking at the Raikes School" class="tooltip" style="display:block;"><img src="images/splash_profile_raikes.jpg" width="210" height="221" alt="Jeffrey S. Raikes" /></a>
+          </div>
+         <div class="clear"></div>
+         <div class="zenbox"><h2 style="font-size:22px;">Evan Williams of Twitter, Bill Gates and of course, Jeff Raikes</h2></div>
+        
+          <p style="margin-top:-8px;">Our computer science and management focus attracts the sharpest minds - among students and industry giants alike. Our students have heard from (and now you can too, through these videos) Twitter's Evan Williams, Bill Gates and the namesake of the program, Jeff Raikes.</p>
+        
+         
+          <div style="float:left; width:46%; padding-right:20px;">
+          <img src="images/splash_entrepreneuringdays.jpg" alt="EntrepreneuringDays" class="frame" />
+          <h5 class="sec_header">EntrepreneuringDays@UNL Showcases Local and National Student Innovation</h5>
+          <p>The undergraduate and <a href="http://cba.unl.edu/about/centers/ent/events/entrepreneuring-days-winners.aspx" target="_blank">overall grand prize winning team</a> was James Verhoeff, a senior marketing and management major from Cortland, Neb., and Zach Christensen, a junior biochemistry major from Elkhorn, Neb., with a mobile app called Pickit. The app allows users access to deals from local merchants redeemed by scanning a card at the merchant. The merchant is charged a commission with each swipe, half of which goes to a nonprofit chosen by the consumer. The team was awarded a grand prize of $50,000 to start the business.</p>
+<p>
+The <a href="http://cba.unl.edu/about/centers/ent/events/entrepreneuring-days-winners.aspx" target="_blank">third
+prize</a> went to Eric Hess, a senior accounting major from Lincoln, Neb., and Nick Graef, a senior computer science major and business minor from Hickman, Neb. Their app allows golf courses to offer promotions and specials to help fill empty tee times, improving earnings and creating customer loyalty. <a href="http://cba.unl.edu/news/entrepreneuringdays-unl-showcases-local-and-national-student-innovation/?contentGroup=Home" title="read this story about EntrepreneuringDays@UNL">Read more about EntrepreneuringDays@UNL</a>.</p>
+
+				<br />
+          <img src="images/20120218_appcontest.jpg" alt="Raikes School students" class="frame" />
+          <h5 class="sec_header">Raikes students win $58,000 in national app-development contest</h5>
+          <p>In a live webcast in front of as many as 3,000 people across the nation on Feb. 15, students from the Jeffrey S. Raikes School of Computer Science and Management <a href="http://mediahub.unl.edu/media/2708" title="watch a video of the winner announcement">cheered after winning more than $58,000 in an app-development challenge</a>.</p>
+<p>
+"Team Stock Bros" students Neema Bahramzad, Alec Johnston, Chris Johnson, Clay Upton and Derek Guenther will split most of the prize money won in a competition among 29 teams from universities across the country. A portion of the prize will also fund improvements at the Raikes School. <a href="http://newsroom.unl.edu/announce/todayatunl/1026/6050" title="Read more about this contest and win in Today@UNL">Read more about this contest and win</a>.</p>
+          
+          <!--<img src="images/splash_groupshot.jpg" width="330" height="220" alt="Raikes School students" class="frame" />
+          <h5 class="sec_header" style="margin-bottom:6px;">Nothing will better prepare you for the future of business than the Raikes School experience at the University of Nebraska-Lincoln.</h5>
+          <p>Information technology has reshaped the business world. IT and management are indefinitely linked. The <a href="name_change.shtml" title="read more about Jeffrey Raikes">Jeffrey S. Raikes School</a> provides a world-class university honors experience in computer science and management. Our high-achieving students are prepared not only to succeed in this kind of business world. They're ready to lead it.</p>-->
+          </div>
+          
+          
+          <div style="float:right; width:46%; padding-right:10px;">
+          <a href="http://www.code.org/" title="go to Code.org"><img src="images/splash_code_video.jpg" width="330" alt="Code.org video" class="frame" /></a>
+           
+           <p>Why is learning to code so important? Check out the video on <a href="http://www.code.org/" title="go to Code.org" class="external">Code.org</a> to find out!</p>
+           
+           <br />
+          <img src="images/splash_scholarship.jpg" width="330" height="220" alt="Leadership" class="frame" />
+           <h4 class="sec_header">Scholarships recognizing leadership</h4>
+           <p>Raikes School students earn a <a href="scholarships.shtml" title="go to the scholarships page">scholarship</a> that covers housing in the state-of-the-art <a href="kauffman.shtml" title="go to the Kauffman Center page">Kauffman Center</a> and a full meal plan for up to four years, as well as admission to the University Honors Program**, which may include a textbook scholarship. More on these and other <a href="scholarships.shtml" title="go to the scholarships page">scholarships here</a>.</p>
+          </div>
+             		
+           </div>
+         
+      
+		  
+          
+
+<div class="grid3">
+         <!--<a href="/applyonline.shtml"><img src="/images/promo_apply.jpg" alt="" title="Apply to the Raikes School - due November 15th" /></a><br />
+<img src="/images/promo_RaikesTalk.jpg" alt="" title="Watch a live video stream of Jeff Raikes' talk at the Raikes School" class="frame" /><br />-->
+<figure class="frame"><a href="http://mediahub.unl.edu/media/3127"><img src="/images/reddit.jpg" alt="" title="Reddit at the Raikes School" /></a><figcaption style="font-size:1.2em;margin-top:.2em;"><a href="http://mediahub.unl.edu/media/3127">Reddit Selects Raikes School for Visit</a></figcaption></figure>
+<a href="http://www.facebook.com/RaikesSchool" target="_blank"><img src="/images/promo_facebook.gif" class="frame" alt="Become a fan of the Raikes School on Facebook" title="Become a fan of the Raikes School on Facebook" /></a>
+
+
+<a href="http://raikes.unl.edu/reply/" title="request more information from the Raikes School"><img src="/images/icon_request.png" alt="request" style="float:right; margin-top:5px;margin-right:5px;" /></a><h6>
+<a href="http://raikes.unl.edu/reply/" title="request more information from the Raikes School">Request More information from The Raikes School</a></h6>
+
+<br />
+			<div class="zenbox primary">
+                <h3>Watch Raikes School Featured Videos</h3>
+               
+                <ul>
+
+                <li><a href="/video/20081204_AboutRaikesSchool_small.mp4" title="About the Raikes School">About The Raikes School</a></li>
+        <li><a href="video_jeffreysraikes_20100430.shtml" title="Jeffrey S. Raikes">Jeffrey S. Raikes - 'The Business of Doing Good'</a></li>
+<li><a href="video_jeffreysraikes_sp.shtml" title="Jeffrey S. Raikes">Jeffrey S. Raikes - The Raikes School and Entrepreneurs</a></li>
+<li><a href="video_billgates.shtml" title="Bill Gates">Bill Gates - Co-Chair of Bill &amp; Melinda Gates Foundation</a></li>
+<li><a href="video_evanwilliams.shtml" title="Evan Williams">Evan Williams - co-founder of Twitter</a></li>
+<li><a href="video_larrykeeley.shtml" title="Larry Keeley">Larry Keeley - strategy consultant with the Monitor Group</a></li>
+<li><a href="video_seanmoffitt.shtml" title="Sean Moffitt">Sean Moffitt - co-author of Wikibrands</a></li>
+<li><a href="video_joemoglia.shtml" title="Joe Moglia">Joe Moglia - Chairman and former CEO of TD Ameritrade</a></li>
+<li><a href="video_justinhall.shtml" title="Justin Hall video">Justin Hall - Freelance journalist, game developer and pioneer blogger</a></li>
+<li><a href="video_barryuphoff.shtml" title="Barry Uphoff">Barry Uphoff - Managing Principal at Capricorn Investment Group</a></li>
+<li><a href="video_dougburgum.shtml" title="Doug Burgum">Doug Burgum - Entrepreneur and Philanthropist</a></li>
+<li><a href="video_mikebetzer.shtml" title="Mike Betzer">Mike Betzer - CEO of Social Dynamx</a></li>
+                </ul>
+                </div>
+<a href="http://nufoundation.org/Page.aspx?pid=440"><img src="/images/promo_gift.jpg" class="frame" alt="Make a gift to the Raikes School" title="Make a gift to the Raikes School" /></a><br />
+
+          </div>
+
+        <!-- InstanceEndEditable -->
+                <div class="clear"></div>
+                <noscript>
+    <p>
+    Your browser does not appear to support JavaScript, or you have turned JavaScript off. You may use unl.edu without enabling JavaScript, but certain functions may not be available.
+    </p>
+</noscript>
+                <!--THIS IS THE END OF THE MAIN CONTENT AREA.-->
+            </div>
+        </div>
+        <footer id="footer">
+            <div id="footer_floater"></div>
+            <div class="footer_col" id="wdn_footer_feedback">
+                <h3><a href="http://www1.unl.edu/comments/">Your Feedback</a></h3>
+<form action="http://www1.unl.edu/comments/" method="post" id="wdn_feedback" title="WDN Feedback Form:4" class="rating">
+    <fieldset class="rating">
+        <legend>Please rate this page:</legend>
+        <input type="radio" id="star5" name="rating" value="5" />
+        <label for="star5" title="Rocks!">5 stars</label>
+        <input type="radio" id="star4" name="rating" value="4" />
+        <label for="star4" title="Pretty good">4 stars</label>
+        <input type="radio" id="star3" name="rating" value="3" />
+        <label for="star3" title="Meh">3 stars</label>
+        <input type="radio" id="star2" name="rating" value="2" />
+        <label for="star2" title="Kinda bad">2 stars</label>
+        <input type="radio" id="star1" name="rating" value="1" />
+        <label for="star1" title="Not so hot">1 star</label>
+        <input type="submit" value="Submit" name="submit" />
+    </fieldset>
+</form>
+<form action="http://www1.unl.edu/comments/" method="post" id="wdn_feedback_comments" title="WDN Feedback Form" class="comments">
+    <fieldset><legend>Comments for this page</legend>
+    <ol>
+        <li class="wdn_comment_name">
+            <label for="wdn_comment_name">Name (optional)</label>
+            <input type="text" name="name" id="wdn_comment_name" placeholder="Your Name" />
+        </li>
+        <li class="wdn_comment_email">
+            <label for="wdn_comment_email">Email (optional)</label>
+            <input type="text" name="email" id="wdn_comment_email" placeholder="Your Email" />
+        </li>
+        <li><label for="wdn_comments">Comments</label>
+          <textarea rows="2" cols="20" name="comment" id="wdn_comments" placeholder="Your Comment"></textarea>
+        </li>
+    </ol>
+    <input type="submit" value="Submit" name="submit" class="wdn_comment_submit" /></fieldset>
+</form>
+
+            </div>
+            <div class="footer_col" id="wdn_footer_related">
+                <!-- InstanceBeginEditable name="leftcollinks" -->
+        <!-- WDN: see glossary item 'sidebar links' -->
+        <h3>Related Links</h3>
+<ul><li class="first"><a href="http://www.unl.edu/">UNL</a></li>
+    <li><a href="http://cse.unl.edu/">Department of Computer Science &amp; Engineering</a></li>
+	<li><a href="http://engineering.unl.edu/">College of Engineering</a></li>
+    <li><a href="http://cba.unl.edu/">College of Business Administration </a></li>
+    <li><a href="http://ascweb.unl.edu/">College of Arts and Sciences</a></li>
+    <li><a href="http://www.unl.edu/journalism/">College of Journalism and Mass Communications</a></li>
+		
+		
+	   
+</ul>
+
+        <!-- InstanceEndEditable --></div>
+            <div class="footer_col" id="wdn_footer_contact">
+                <!-- InstanceBeginEditable name="contactinfo" -->
+                <h3>Contacting Us</h3>
+<p><strong>Jeffrey S. Raikes School of Computer Science and Management</strong><br />
+Lincoln, NE 68588<br />
+402-472-6000</p>
+
+                <!-- InstanceEndEditable --></div>
+            <div class="footer_col" id="wdn_footer_share">
+                <h3>Share This Page</h3>
+<ul class="socialmedia">
+    <li><a href="http://go.unl.edu/?url=referer" id="wdn_createGoURL" rel="nofollow">Get a G<span>o</span>URL</a></li>
+    <li class="outpost" id="wdn_emailthis"><a href="mailto:" title="Share this page through email" rel="nofollow">Share this page through email</a></li>
+    <li class="outpost" id="wdn_facebook"><a href="https://www.facebook.com/" title="Share this page on Facebook" rel="nofollow">Share this page on Facebook</a></li>   
+    <li class="outpost" id="wdn_twitter"><a href="https://twitter.com/" title="Share this page on Twitter" rel="nofollow">Share this page on Twitter</a></li>
+</ul>
+            </div>
+            <!-- InstanceBeginEditable name="optionalfooter" --> <!-- InstanceEndEditable -->
+            <div id="wdn_copyright">
+                <div>
+                    <!-- InstanceBeginEditable name="footercontent" -->
+      &copy; 2013 Jeffrey S. Raikes School of Computer Science and Management | Lincoln, NE 68588 | 402-472-6000 | <a href="http://www1.unl.edu/comments/" title="Click here to direct your comments and questions">comments?</a>
+
+
+      <!-- InstanceEndEditable -->
+                    <span id="wdn_attribution"><br/>UNL web templates and quality assurance provided by the <a href="http://wdn.unl.edu/" title="UNL Web Developer Network">Web Developer Network</a> | <a href="http://www1.unl.edu/wdn/qa/" id="wdn_qa_link">QA Test</a></span>
+                </div>
+                <div id="wdn_logos">
+    <a href="http://www.unl.edu/" title="UNL Home" id="unl_wordmark">UNL Home</a>
+    <a href="http://www.cic.net/home" title="CIC Website" id="cic_wordmark">CIC Website</a>
+    <a href="http://www.bigten.org/" title="Big Ten Website" id="b1g_wordmark">Big Ten Website</a>
+</div>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- InstanceEnd --></html>
