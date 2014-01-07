@@ -4,6 +4,8 @@ from nltk import FreqDist
 from nltk import ConditionalFreqDist
 from nltk.corpus import stopwords
 
+# includes nltk code samples from http://desilinguist.org/pdf/crossroads.pdf
+
 f = open('raikesText.csv')
 raw = f.read()
 tokens = nltk.word_tokenize(raw)
@@ -41,5 +43,4 @@ followingWords = cfd['innovative'].samples()
 for follower in followingWords:
 	print follower
 	
-print cfd['love'].samples()
 
