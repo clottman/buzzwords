@@ -6,7 +6,10 @@ from nltk.corpus import stopwords
 
 # includes nltk code samples from http://desilinguist.org/pdf/crossroads.pdf
 
-f = open('raikesText.csv')
+# change the file names here to run the analysis wherever you want.
+#f = open('rebrandingTextWithOldTagsOnly.csv')
+#f = open('rebrandingTextWithMoreTags.csv')
+f = open('raikesTextOld.csv')
 raw = f.read()
 tokens = nltk.word_tokenize(raw)
 words = [w.lower() for w in tokens]

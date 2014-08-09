@@ -1,0 +1,79 @@
+Number of words: 24482
+Number of unique words: 3747
+
+Top 50 Most commonly used words (by number of occurrences)
+'' 1058
+school 620
+`` 530
+unl 451
+raikes 338
+engineering 257
+college 236
+design 235
+department 226
+business 215
+twitter 211
+share 210
+facebook 208
+website 208
+computer 197
+science 194
+'s 172
+studio 170
+management 168
+faculty 157
+board 146
+students 145
+industry 142
+s. 136
+jeffrey 134
+director 131
+work 131
+center 129
+info 129
+experience 128
+student 127
+information 126
+partners 126
+curriculum 125
+process 125
+lincoln 122
+campus 121
+community 121
+kauffman 121
+advisory 120
+developer 120
+big 119
+opportunity 116
+administration 114
+best 113
+invited 112
+news 112
+speakers 112
+online 111
+page 110
+
+Appearances of innovative or innovation: 46 times
+
+Appearances of world-class: 5
+
+Appearances of Stanford: 4
+
+Appearances of marriage: 0
+
+Appearances of love: 2
+
+Words that follow innovative at least once: 
+new
+applications
+solutions
+collaborative
+computer
+design
+entrepreneurial
+forward
+leaders.
+products
+software-based
+students
+world-class
