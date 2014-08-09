@@ -13,7 +13,7 @@ However, the updated website used all header elements 1-5 regularly, and also pl
 To crawl:
 In the project folder in a console window with python installed:
 ```
-scrapy crawl **spider name** -o **output file name** -t **output file type**
+scrapy crawl (spider name) -o (output file name) -t (output file type)
 ```
 To run the analysis:
 ```
