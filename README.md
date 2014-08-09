@@ -5,8 +5,7 @@ The text used for this analysis included all the anchor, paragraph, H1, and H5 t
 
 Later in 2014, the Raikes School website underwent rebranding. After this rebranding, in August 2014, I  ran the analysis again using the text from the same HTML elements as before. See [here](analysisResults/analysisOutput_RebrandingOldTags.txt).
 
-However, the updated website used all header elements 1-5 regularly, and also placed more content in span and blockquote elements. These elements were included in [this](analysisResults/analysisOutput_RebrandingMoreTags) analysis.
-
+However, the updated website used all header elements 1-5 regularly, and also placed more content in span and blockquote elements. These elements were included in [this](analysisResults/analysisOutput_RebrandingMoreTags.txt) analysis.
 
 ### Usage:
 
